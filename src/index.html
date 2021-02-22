@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relatório</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tailwindcss/dist/tailwind.min.css"
+    />
+  </head>
+  <body class="bg-gradient-to-r from-green-400 to-blue-500">
+    <div class="flex h-screen justify-center items-center">
+      <form>
+        <div
+          class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4 m-3"
+        >
+          <div class="flex-shrink-0">
+            <img
+              class="h-12 w-12"
+              src="https://img.icons8.com/ultraviolet/80/000000/pdf.png"
+              alt="PDF Logo"
+            />
+          </div>
+          <div>
+            <div class="text-xl font-medium text-black">PDFgenerator</div>
+            <p class="text-gray-500">
+              Informe abaixo o link do site para converter para PDF
+            </p>
+          </div>
+        </div>
+        <input
+          id="inputLink"
+          placeholder="Insira o link aqui"
+          class="border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent rounded-lg py-1 px-7"
+        />
+        <button
+          id="button"
+          onclick="ir()"
+          class="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded-lg py-1 px-2"
+        >
+          Converter
+        </button>
+      </form>
+    </div>
+    <script>
+      function ir() {
+        const link = document.getElementById("inputLink").value
+
+        window.open(`http://localhost:3003/${link}`)
+      }
+    </script>
+  </body>
+</html>
