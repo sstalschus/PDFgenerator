@@ -14,8 +14,8 @@
 <br>
 
 <p align="center">
-  <img alt="" src="../.github/assets/screen_1.png" width="100%">
-    <img alt="" src="../.github/assets/screen_2.png" width="100%">
+  <img alt="" src=".github/assets/screen_1.png" width="100%">
+    <img alt="" src=".github/assets/screen_2.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
