@@ -14,7 +14,8 @@
 <br>
 
 <p align="center">
-  <img alt="" src="" width="100%">
+  <img alt="" src="../.github/assets/screen_1.png" width="100%">
+    <img alt="" src="../.github/assets/screen_2.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,6 +29,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O PDFgenerator é uma aplicação em desenvolvimento onde será possível inserir a url do site desejado e transformar essa página em um arquivo PDF disponível para download, a pasta src é o arquivo principal a pasta src_1 é apenas um protótipo com outra maneira de se fazer algo parecido, ao final do projeto a mesma será deletada.
+O PDFgenerator é uma aplicação em desenvolvimento apenas para aprendizado de algumas das ferramentas utilizadas. Nesse app será possível inserir a url do site desejado e transformar essa página em um arquivo PDF disponível para download, a pasta src é o arquivo principal a pasta src_1 é apenas um protótipo com outra maneira de se fazer algo parecido através da lib html-pdf utilizando também EJS para fins de aprendizado.
 
 ---
